@@ -1,19 +1,25 @@
 @import '../node_modules/bootstrap/scss/bootstrap.scss';
+@import  'variable';
 
 
-$secondary_color: rgb(102, 16, 242);
-$primary_color: rgb(122, 76, 207);
+
+$secondary_color: rgb(20, 16, 242);
+$primary_color: rgb(13, 110, 253);
 $link_color1: rgb(252, 223, 6);
 $link_color2: rgb(255, 255, 255);
 
 
-
+body {
+  h3 {
+    color: $secondary_color;
+  }
+}
  
 .navbar {
     background-color: $primary_color!important;
     border-bottom: 4px solid $secondary_color;
     .nav-item {
-        color: $link_color1;
+        color: $link_color1!important;
     }
     .nav-link:hover{
         color: $link_color2;
@@ -28,8 +34,10 @@ $link_color2: rgb(255, 255, 255);
     background-repeat: no-repeat;
     margin-top: 5rem;
     padding: 10rem 5rem 10rem 5rem;
-  h1, p,{
+  h1, p {
     text-align: center;
+    color: #ffffff!important;
+    text-shadow: 2px 2px 4px black;
   }
 
   a {
@@ -42,7 +50,8 @@ $link_color2: rgb(255, 255, 255);
   margin: 5rem 0 5rem 0;
     i {
       font-size: 2rem;
-      color: $primary_color;
+      color: $secondary_color;
+      
     }
     h3 {
       display: inline;
@@ -55,11 +64,6 @@ $link_color2: rgb(255, 255, 255);
 }
 
 .program_icons {
-  i { 
-    width: 55px;
-    font-weight: 300;
-   
-  }
 
   li {
     list-style: none;
@@ -94,7 +98,4 @@ path {
     }
 }
 
-footer {
-  background-color: $primary_color!important;
-}
 
