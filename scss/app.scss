@@ -1,0 +1,100 @@
+@import '../node_modules/bootstrap/scss/bootstrap.scss';
+
+
+$secondary_color: rgb(102, 16, 242);
+$primary_color: rgb(122, 76, 207);
+$link_color1: rgb(252, 223, 6);
+$link_color2: rgb(255, 255, 255);
+
+
+
+ 
+.navbar {
+    background-color: $primary_color!important;
+    border-bottom: 4px solid $secondary_color;
+    .nav-item {
+        color: $link_color1;
+    }
+    .nav-link:hover{
+        color: $link_color2;
+    }
+} 
+  
+
+
+#first-cta {
+    background-image: url("../img/banner-bootpro.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: 5rem;
+    padding: 10rem 5rem 10rem 5rem;
+  h1, p,{
+    text-align: center;
+  }
+
+  a {
+    margin-left: 2rem;
+  }
+}
+
+#services {
+
+  margin: 5rem 0 5rem 0;
+    i {
+      font-size: 2rem;
+      color: $primary_color;
+    }
+    h3 {
+      display: inline;
+      margin-left: 0.2rem;
+    }
+    p {
+      margin: 1em 0 0 0;
+    }
+
+}
+
+.program_icons {
+  i { 
+    width: 55px;
+    font-weight: 300;
+   
+  }
+
+  li {
+    list-style: none;
+    display: inline-block;
+    margin-top: 3rem;
+  }
+}
+
+#partnerships {
+    .col {
+      @media screen and (max-width: 576px) {
+        width: 60%;
+        margin: 0 auto;
+      }
+    }
+}
+
+.reviews-card {
+    i {
+      color: $primary_color;
+      font-size: 1.5rem;
+    }
+}
+
+path {
+    fill: $secondary_color;
+}
+
+.reviews-name {
+    h3 {
+       padding-top: 1rem;
+    }
+}
+
+footer {
+  background-color: $primary_color!important;
+}
+

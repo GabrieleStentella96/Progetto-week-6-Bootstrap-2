@@ -1,0 +1,12 @@
+@import "variables"
+
+
+
+@mixin cards($val) {
+    background-color: $val;
+    @if $val == $light {
+      color: #000;
+    } @else if $val == $dark {
+      color: #fff;
+    }
+  }

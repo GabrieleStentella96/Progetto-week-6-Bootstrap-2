@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+
+<html lang="it" class="h-100">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="scss/app.css" rel="stylesheet">
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <link href="node_modules/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+    <link href="https://cdn.lineicons.com/3.0/lineicons.css" rel="stylesheet">
+
+
+</head>
+
+<body class="d-flex flex-column h-100">
+
+    <header>
+        <!-- Fixed navbar -->
+        <nav class="navbar navbar-expand-md navbar-dark bg-gradient fixed-top bg-dark">
+            <div class="container">
+                <a class="navbar-brand" href="#">BootPro</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
+                    aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <ul class="navbar-nav w-100 justify-content-end">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Servizi</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contatti</a>
+                        </li>
+                    </ul>
+                    <ul class="navbar-nav me-auto mb-2 mb-md-0">
+                        <li class="nav-item"><a class="nav-link" href="#"><i class="bi-twitter"></i></a></li>
+                        <li class="nav-item"><a class="nav-link" href="#"><i class="bi bi-meta"></i></i></a></li>
+                        <li class="nav-item"><a class="nav-link" href="#"><i class="bi-twitch"></i></a></li>
+                        <li class="nav-item"><a class="nav-link" href="#"><i class="bi-discord"></i></a></li>
+                        <li class="nav-item"><a class="nav-link" href="#"><i class="bi-whatsapp"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+
+    <!-- Begin page content -->
+    <main class="flex-shrink-0">
+        <!-- prima sezione e prima cta -->
+        <section id="first-cta" class="first-cta">
+            <div class="container">
+                <h1 class="display-3 mt-5">Diventa programmatore in soli 6 mesi</h1>
+                <p class="lead">I nostri corsi di programmazione ti preparano subito alla tua nuova professione</p>
+                <a href="#" class="btn btn-primary">Voglio saperne di più</a>
+            </div>
+        </section>
+
+        <!-- Servizi disponibili utilizzando le cards. Sono tre. -->
+        <section id="services" class="services">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <i class="bi bi-code-slash"></i></i>
+                        <h3 class="display-6">Back End Developer</h3>
+                        <p>Inizia un percorso di 6 mesi per diventare Back End Developer e lavora
+                            nelle nostre aziende partner. Ecco i linguaggi che apprenderai.
+                        </p>
+                        <ul class="program_icons me-auto mb-2 mb-md-0">
+                            <li><i class="lni lni-java"></i></li>
+                            <li><i class="lni lni-php"></i></li>
+                            <li><i class="lni lni-laravel"></i></li>
+                            <li><i class="lni lni-nodejs"></i></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4">
+                        <i class="bi bi-code-slash"></i>
+                        <h3 class="display-6">Front End Developer</h3>
+                        <p>Inizia un percorso di 6 mesi per diventare Front End Developer e lavora
+                            nelle nostre aziende partner. Ecco i linguaggi che apprenderai.</p>
+                        <div class="program_icons me-auto-mb-2 mb-md-0">
+                            <li><i class="lni lni-html5"></i></li>
+                            <li><i class="lni lni-css3"></i></li>
+                            <li><i class="lni lni-javascript"></i></li>
+                            <li><i class="lni lni-react"></i></li>
+                            <li><i class="lni lni-angular"></i></li>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <i class="bi bi-code-slash"></i>
+                        <h3 class="display-6">Fullstack Developer</h3>
+                        <p>Inizia un percorso di 6 mesi per diventare Front End Developer e lavora
+                            nelle nostre aziende partner. Ecco i linguaggi che apprenderai.</p>
+                        <div class="program_icons me-auto-mb-2 mb-md-0">
+                            <li><i class="lni lni-html5"></i></li>
+                            <li><i class="lni lni-css3"></i></li>
+                            <li><i class="lni lni-javascript"></i></li>
+                            <li><i class="lni lni-react"></i></li>
+                            <li><i class="lni lni-angular"></i></li>
+                            <li><i class="lni lni-php"></i></li>
+                            <li><i class="lni lni-laravel"></i></li>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Inserisco la sezione delle partnerships -->
+        <section id="partnerships" class="partnerships">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+                <path fill="#f5f5f5" fill-opacity="1"
+                    d="M0,96L60,90.7C120,85,240,75,360,69.3C480,64,600,64,720,90.7C840,117,960,171,1080,170.7C1200,171,1320,117,1380,90.7L1440,64L1440,0L1380,0C1320,0,1200,0,1080,0C960,0,840,0,720,0C600,0,480,0,360,0C240,0,120,0,60,0L0,0Z">
+                </path>
+            </svg>
+            <div class="container">
+                <div class="row text-center">
+                    <h4 class="display-4 mb-3">Le nostre aziende partner</h4>
+                    <div class="separator"></div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3 col-lg-3 partnerships_logo"><img src="img/logo1.png" alt=""
+                            class="img-fluid1"></div>
+                    <div class="col-md-3 col-lg-3 partnerships_logo"><img src="img/logo2.png" alt=""
+                            class="img-fluid2"></div>
+                    <div class="col-md-3 col-lg-3 partnerships_logo"><img src="img/logo3.png" alt=""
+                            class="img-fluid3"></div>
+                    <div class="col-md-3 col-lg-3 partnerships_logo"><img src="img/logo4.png" alt=""
+                            class="img-fluid"></div>
+                    <div class="col-md-3 col-lg-3 partnerships_logo"><img src="img/logo5.png" alt=""
+                        class="img-fluid"></div>
+                    <div class="col-md-3 col-lg-3 partnerships_logo"><img src= "img/logo6.png"alt=""
+                        class="img-fluid"></div>
+                    <div class="col-md-3 col-lg-3 partnerships_logo"><img src= "img/logo7.png"alt=""
+                            class="img-fluid"></div>
+                    <div class="col-md-3 col-lg-3 partnerships_logo"><img src= "img/logo8.png"alt=""
+                        class="img-fluid"></div>
+                    <div class="col-md-3 col-lg-3 partnerships_logo"><img src= "img/logo9.png"alt=""
+                        class="img-fluid"></div>
+                    <div class="col-md-3 col-lg-3 partnerships_logo"><img src= "img/logo10.png"alt=""
+                        class="img-fluid"></div>
+                    <div class="col-md-3 col-lg-3 partnerships_logo"><img src= "img/logo11.png"alt=""
+                        class="img-fluid"></div>
+                    <div class="col-md-3 col-lg-3 partnerships_logo"><img src= "img/logo12.png"alt=""
+                        class="img-fluid"></div>
+                    <div class="col-md-3 col-lg-3 partnerships_logo"><img src= "img/logo13.png"alt=""
+                        class="img-fluid"></div>
+                    <div class="col-md-3 col-lg-3 partnerships_logo"><img src= "img/logo14.png"alt=""
+                        class="img-fluid"></div>
+                    <div class="col-md-3 col-lg-3 partnerships_logo"><img src= "img/logo15.png"alt=""
+                        class="img-fluid"></div>
+                    <div class="col-md-3 col-lg-3 partnerships_logo"><img src= "img/logo16.png"alt=""
+                        class="img-fluid"></div>
+                    <div class="col-md-3 col-lg-3 partnerships_logo"><img src= "img/logo17.png"alt=""
+                        class="img-fluid"></div>
+                    <div class="col-md-3 col-lg-3 partnerships_logo"><img src= "img/logo18.png"alt=""
+                        class="img-fluid"></div>
+                    <div class="col-md-3 col-lg-3 partnerships_logo"><img src= "img/logo19.png"alt=""
+                        class="img-fluid"></div>
+                    <div class="col-md-3 col-lg-3 partnerships_logo"><img src= "img/logo20.png"alt=""
+                        class="img-fluid"></div>
+                </div>
+            </div>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+                <path fill="#f5f5f5" fill-opacity="1"
+                    d="M0,96L60,90.7C120,85,240,75,360,69.3C480,64,600,64,720,90.7C840,117,960,171,1080,170.7C1200,171,1320,117,1380,90.7L1440,64L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z">
+                </path>
+            </svg>
+        </section>
+
+        <!-- Posiziono la sezione delle recensioni/testimonianze -->
+        <section id="reviews" class="reviews">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+                <path fill="#f5f5f5" fill-opacity="1"
+                    d="M0,192L60,197.3C120,203,240,213,360,192C480,171,600,117,720,112C840,107,960,149,1080,149.3C1200,149,1320,107,1380,85.3L1440,64L1440,0L1380,0C1320,0,1200,0,1080,0C960,0,840,0,720,0C600,0,480,0,360,0C240,0,120,0,60,0L0,0Z">
+                </path>
+            </svg>
+            <div class="container">
+                <div class="row text-center py-5">
+                    <h4 class="display-4 mb-3">Le opinioni dei nostri studenti</h4>
+                    <div class="separator"></div>
+                    <div class="row align-items-center">
+                        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                                <!-- Testimonianza 1 -->
+                                <div class="carousel-item active">
+                                    <!-- Inizio la creazione delle card per il carosello -->
+                                    <div class="reviews-card">
+                                        <p class="lh-lg">
+                                            <i class="bi bi-chat-right-quote"></i>
+                                            Prima di entrare in BootPro non avevo mai scritto una riga di codice, e avevo
+                                            una grande paura di non farcela e di sprecare il mio tempo. I miei sacrifici sono valsi
+                                            a qualcosa, dato che ora lavoro come Java Developer per una grande software house,
+                                            la stessa in cui lavorano molti miei ex colleghi di corso.
+                                        </p>
+                                    </div>
+                                    <div class="reviews-img">
+                                        <img src="img/rosa bianchi.jpg" alt="reviews-1"
+                                            class="img-fluid rounded-circle">
+                                    </div>
+                                    <div class="reviews-name">
+                                        <h3>Rosa Bianchi</h3>
+                                        Junior Java Developer presso <img src="img/logo3.png" alt="">
+                                    </div>
+                                </div>
+                                <!-- Testimonianza 2 -->
+                                <div class="carousel-item">
+                                    <!-- Inizio la creazione delle card per il carosello -->
+                                    <div class="reviews-card">
+                                        <p class="lh-lg">
+                                            <i class="bi bi-chat-right-quote"></i>
+                                            Prima di iniziare il corso da Fullstack Developer di BootPro ero un
+                                            agente immobiliare senza grandi prospettive di carriera, intrappolato in una routine
+                                            che non amavo più. Ho approfittato dell'opportunità offertami da BootPro, e ora lavoro per 
+                                            un grande franchising immobiliare, ma come Fullstack Developer.
+
+                                        </p>
+                                    </div>
+                                    <div class="reviews-img">
+                                        <img src="img/Marco Verdi.jpg" alt="reviews-2"
+                                            class="img-fluid rounded-circle">
+                                    </div>
+                                    <div class="reviews-name">
+                                        <h3>Marco Verdi</h3>
+                                        Junior Fullstack Developer presso <img src="img/logo8.png" alt="">
+                                    </div>
+                                </div>
+                                <!-- Testimonianza 3 -->
+                                <div class="carousel-item">
+                                    <!-- Inizio la creazione delle card per il carosello -->
+                                    <div class="reviews-card">
+                                        <p class="lh-lg">
+                                            <i class="bi bi-chat-right-quote"></i>
+                                            Non nascondo che i primi tempi è stata molto dura, dato che ho intrapreso
+                                            il corso da Front End Developer senza alcuna conoscienza pregressa. Dopo tanti
+                                            sacrifici sono arrivati i primi successi, ed ora lavoro per l'azienda dei miei sogni.
+                                        </p>
+                                    </div>
+                                    <div class="reviews-img">
+                                        <img src="img/Kate Smith.jpg" alt="reviews-3"
+                                            class="img-fluid rounded-circle">
+                                    </div>
+                                    <div class="reviews-name">
+                                        <h3>Kate Smith</h3>
+                                        Junior Front End Developer presso <img src="img/logo19.png" alt="">
+                                    </div>
+                                </div>
+                                <!-- Testimonianza 4 -->
+                                <div class="carousel-item">
+                                    <!-- Inizio la creazione delle card per il carosello -->
+                                    <div class="reviews-card">
+                                        <p class="lh-lg">
+                                            <i class="bi bi-chat-right-quote"></i>
+                                            Ho lavorato per 25 anni in un'azienda che ha dichiarato fallimento, 
+                                            e vi lascio immaginare cosa significa rimettersi in gioco a 50 anni.
+                                            Il corso di BootPro non solo mi ha fatto appassionare al mondo della programmazione,
+                                            ma mi ha anche permesso di essere assunto in un'azienda che non guarda solo l'età!
+                                            
+                                        </p>
+                                    </div>
+                                    <div class="reviews-img">
+                                        <img src="img/luca rossi.jpg" alt="reviews-2"
+                                            class="img-fluid rounded-circle">
+                                    </div>
+                                    <div class="reviews-name">
+                                        <h3>Luca Rossi</h3>
+                                        Junior Fullstack Developer presso <img src="img/logo10.png" alt="">
+                                    </div>
+                                </div>
+                                <!-- Testimonianza 5 -->
+                                <div class="carousel-item">
+                                    <!-- Inizio la creazione delle card per il carosello -->
+                                    <div class="reviews-card">
+                                        <p class="lh-lg">
+                                            <i class="bi bi-chat-right-quote"></i>
+                                            Mi sono affacciata al corso di Back End Developer con una conoscenza 
+                                            minima di programmazione, acquisita durante gli anni dell'università. Devo riconoscere che il 
+                                            corso di BootPro ha superato di gran lunga le mie aspettative, e mi ha permesso di essere assunta
+                                            da una grande azienda dopo un solo colloquio!
+                                            
+                                        </p>
+                                    </div>
+                                    <div class="reviews-img">
+                                        <img src="img/francesca rossi.jpg" alt="reviews-2"
+                                            class="img-fluid rounded-circle">
+                                    </div>
+                                    <div class="reviews-name">
+                                        <h3>Francesca Rossi</h3>
+                                        Junior .Net Developer presso <img src="img/logo2.png" alt="">
+                                    </div>
+                                </div>
+                                <!-- Testimonianza 6 -->
+                                <div class="carousel-item">
+                                    <!-- Inizio la creazione delle card per il carosello -->
+                                    <div class="reviews-card">
+                                        <p class="lh-lg">
+                                            <i class="bi bi-chat-right-quote"></i>
+                                            Non posso che essere soddisfatto del corso di BootPro per Android Developer, che si è
+                                            rivelato da subito coinvolgente e completo. Gli insegnanti sono stati molto professionali, e con i 
+                                            miei ex colleghi ho instaurato solidi rapporti umani e professionali. Al termine del corso ho
+                                            sostenuto diversi colloqui di lavoro, e ho potuto scegliere dove e con chi lavorare.
+                                            
+                                        </p>
+                                    </div>
+                                    <div class="reviews-img">
+                                        <img src="img/mario brambilla.jpg" alt="reviews-2"
+                                            class="img-fluid rounded-circle">
+                                    </div>
+                                    <div class="reviews-name">
+                                        <h3>Mario Brambilla</h3>
+                                        Junior Android Developer presso <img src="img/logo20.png" alt="">
+                                    </div>
+                                </div>
+                                <!-- Testimonianza 7 -->
+                                <div class="carousel-item">
+                                    <!-- Inizio la creazione delle card per il carosello -->
+                                    <div class="reviews-card">
+                                        <p class="lh-lg">
+                                            <i class="bi bi-chat-right-quote"></i>
+                                            Consiglio a chiunque il corso da Fullstack Developer di BootPro, una full immersion 
+                                            di sei mesi nel fantastico mondo della programmazione. Non nascondo che per arrivare 
+                                            ad avere dei risultati serve molto impegno, ma le soddisfazioni arrivano e come! Io ho trovato
+                                            lavoro dopo meno di un mese dal termine delle lezioni!
+
+                                        </p>
+                                    </div>
+                                    <div class="reviews-img">
+                                        <img src="img/pedro rodriguez.jpg" alt="reviews-2"
+                                            class="img-fluid rounded-circle">
+                                    </div>
+                                    <div class="reviews-name">
+                                        <h3>Pedro Rodriguez</h3>
+                                        Junior Fullstack Developer presso <img src="img/logo16.png" alt="">
+                                    </div>
+                                </div>
+                                <!-- Testimonianza 8 -->
+                                <div class="carousel-item">
+                                    <!-- Inizio la creazione delle card per il carosello -->
+                                    <div class="reviews-card">
+                                        <p class="lh-lg">
+                                            <i class="bi bi-chat-right-quote"></i>
+                                            Il corso di Back End Developer di BootPro è stata un'ottima scelta! Gli insegnanti
+                                            sono molto bravi, sia a spiegare concetti molto complessi che ad ascoltare i bisogni degli
+                                            studenti. Ho sostenuto ricevuto offerte di lavoro da ben sei aziende, alla fine ho scelto di 
+                                            lavorare nella stessa azienda in cui lavora la mia fidanzata.
+                                            
+                                        </p>
+                                    </div>
+                                    <div class="reviews-img">
+                                        <img src="img/Thomas Brown.jpg" alt="reviews-2"
+                                            class="img-fluid rounded-circle">
+                                    </div>
+                                    <div class="reviews-name">
+                                        <h3>Thomas Brown</h3>
+                                        Junior Java Developer presso <img src="img/logo14.png" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button"
+                                data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button"
+                                data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+        </section>
+
+    </main>
+
+    <footer class="footer mt-auto py-3 bg-primary bg-gradient text-light">
+        <div class="container text-center">
+            <div class="row py-4">
+                <div class="col-md-3 py-4">
+                    <h3>BootPro</h3>
+                </div>
+                <div class="col-md-3">
+                    <h4>Mission & Vision</h4>
+                    <p>Lorem ipsum</p>
+                    <p>Lorem ipsum</p>
+                    <p>Lorem ipsum</p>
+                </div>
+                <div class="col-md-3">
+                    <h4>Dove siamo</h4>
+                    <p>Roma, Via Appia Nuova 1, 00182</p>
+                    <p>Milano, Via Solferino 1, 20121</p>
+                    <p>Firenze, Via Nazionale 1, 50123</p>
+                </div>
+                <div class="col-md-3">
+                    <h4>Contatti</h4>
+                    <p>Lorem ipsum</p>
+                    <p>Lorem ipsum</p>
+                    <p>Lorem ipsum</p>
+                </div>
+            </div>
+            <span class="text-light">&copy; Alessio per Epicode School </span>
+        </div>
+    </footer>
+    <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+</body>
+
+</html>
