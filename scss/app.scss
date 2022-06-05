@@ -5,8 +5,7 @@
 
 $secondary_color: rgb(20, 16, 242);
 $primary_color: rgb(13, 110, 253);
-$link_color1: rgb(252, 223, 6);
-$link_color2: rgb(255, 255, 255);
+$link_color1: rgb(255, 255, 255);
 
 
 body {
@@ -22,7 +21,7 @@ body {
         color: $link_color1!important;
     }
     .nav-link:hover{
-        color: $link_color2;
+        color: $link_color1;
     }
 } 
   
