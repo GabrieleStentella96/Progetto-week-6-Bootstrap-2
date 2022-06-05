@@ -41,7 +41,7 @@ body {
   }
 
   a {
-    margin-left: 2rem;
+    text-align: center;
   }
 }
 
@@ -51,6 +51,7 @@ body {
     i {
       font-size: 2rem;
       color: $secondary_color;
+      margin-bottom: 2rem;
       
     }
     h3 {
@@ -58,7 +59,7 @@ body {
       margin-left: 0.2rem;
     }
     p {
-      margin: 1em 0 0 0;
+      margin: 1rem 0 0 0;
     }
 
 }
@@ -74,8 +75,8 @@ body {
 
 #partnerships {
     .col {
-      @media screen and (max-width: 576px) {
-        width: 60%;
+      @media screen and (max-width: 570px) {
+        width: 50%;
         margin: 0 auto;
       }
     }

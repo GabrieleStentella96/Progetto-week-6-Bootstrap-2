@@ -12482,7 +12482,7 @@ body h3, body .h3 {
 }
 
 #first-cta a {
-  margin-left: 2rem;
+  text-align: center;
 }
 
 #services {
@@ -12492,6 +12492,7 @@ body h3, body .h3 {
 #services i {
   font-size: 2rem;
   color: #1410f2;
+  margin-bottom: 2rem;
 }
 
 #services h3, #services .h3 {
@@ -12500,7 +12501,7 @@ body h3, body .h3 {
 }
 
 #services p {
-  margin: 1em 0 0 0;
+  margin: 1rem 0 0 0;
 }
 
 .program_icons li {
@@ -12509,9 +12510,9 @@ body h3, body .h3 {
   margin-top: 3rem;
 }
 
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 570px) {
   #partnerships .col {
-    width: 60%;
+    width: 50%;
     margin: 0 auto;
   }
 }
